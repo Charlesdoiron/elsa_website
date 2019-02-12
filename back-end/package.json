@@ -1,0 +1,25 @@
+{
+  "name": "api_elsa_website",
+  "version": "1.0.0",
+  "description": "Blog's api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlesdoiron/elsa_website.git"
+  },
+  "author": "Charles d'Oiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlesdoiron/elsa_website/issues"
+  },
+  "homepage": "https://github.com/Charlesdoiron/elsa_website#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}
